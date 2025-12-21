@@ -1,3 +1,3 @@
-import month
+from months import month
 n = int(input('Enter month number: '))
-print(f'The name of month {n} is {month.n}')
+print(f'The name of month {n} is {month(n)}')
