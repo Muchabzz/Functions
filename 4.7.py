@@ -1,6 +1,10 @@
 # Converts letter to corresponding ICAO word
 def icao(letter):
+<<<<<<< HEAD
     letter = letter.capitalize() #.capitalize zmienia pierwszą litere na dużą a pozostałe na małe
+=======
+    letter = letter.capitalize()
+>>>>>>> b4770c5f2e0d0ca7ff2ce14518d1262a0494f257
     if letter == 'A':
         icao_name = 'Alfa'
     elif letter == 'B':
@@ -63,7 +67,14 @@ name = input('Enter your name: ')
 print('ICAO words for spelling out your name:')
 
 for char in name:
+<<<<<<< HEAD
     if char.isalpha():  # sprawdza czy znak to litera
         word = icao(char) #wywołuje funkcje i przypisuje do każdej litery imienia odpowiedni icao
         print(word, end=" ")  # wypisuje imie za pomocą icao
 print()
+=======
+    if char.isalpha():  # Check if the character is a letter
+        word = icao(char)
+        print(word, end=" ")  # Print each ICAO word separated by a space
+print()  # Print a new line at the end
+>>>>>>> b4770c5f2e0d0ca7ff2ce14518d1262a0494f257

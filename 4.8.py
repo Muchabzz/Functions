@@ -6,7 +6,11 @@ def time_string(hours, minutes, time_format):
     
     if time_format == '24':
         # Format 24-godzinny (HH:MM)
+<<<<<<< HEAD
         return f"{hours:02}:{minutes:02}" #:02 to sposób formatowania liczby, żeby zawsze miała dwie cyfry.
+=======
+        return f"{hours:02}:{minutes:02}"
+>>>>>>> b4770c5f2e0d0ca7ff2ce14518d1262a0494f257
         
     elif time_format == '12':
         # Format 12-godzinny (H:MMam/pm)

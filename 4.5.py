@@ -10,4 +10,8 @@ def pts_to_grade(points):
 
 # Testowanie funkcji
 test_result = 15
+<<<<<<< HEAD
 print(f'Z wynikiem {test_result} Twoja ocena to: {pts_to_grade(test_result)}')
+=======
+print(f'Z wynikiem {test_result} Twoja ocena to: {pts_to_grade(test_result)}')
+>>>>>>> b4770c5f2e0d0ca7ff2ce14518d1262a0494f257
